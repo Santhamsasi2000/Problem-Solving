@@ -1,0 +1,62 @@
+.casestudy-img
+{
+    height: 400px;
+}
+
+@media all and (max-width: 950px)
+{
+  .casestudy-img
+  {
+      height: 350px;
+  }
+}
+
+@media all and (max-width: 800px)
+{
+  .casestudy-img
+  {
+      height: 300px;
+  }
+}
+
+@media all and (max-width: 550px) 
+{
+  .casestudy-img
+  {
+      height: 350px;
+  }
+}
+
+@media all and (max-width: 480px) 
+{
+  .casestudy-img
+  {
+      height: 300px;
+  }
+}
+
+@media all and (max-width: 400px) 
+{
+  .casestudy-img
+  {
+      height: 250px;
+  }
+}
+
+.casestudy-separate
+{
+  background-color: #e6daa2;
+}
+
+@media all and (max-width: 720px) 
+{
+  .casestudy-separate
+  {
+    font-size: 25px;
+  }
+}
+
+.casestudy-card
+{
+  border: #a0752e 4px solid;
+}

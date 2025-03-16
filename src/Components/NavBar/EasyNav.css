@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+.navbar,.dropdown-menu
+{
+    background-color: #F2C0DD;
+}
+
+.navbar-title
+{
+    color: #25092E !important;
+    font-family: "Sora", serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar a,.nav-link
+{
+    color: #25092E !important;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.navbar a:hover:not(.navbar-brand),.nav-link:hover:not(.navbar-brand)
+{
+    color: #141f1c !important;
+    transition: .5s !important;
+}
+
+.navbar a.active:not(.navbar-brand)
+{
+    background-color: #d85c9e;
+    color: white !important;
+    transition: .5s;
+}
+
+.nav-item.dropdown:has(.dropdown-item.active) > .dropdown-toggle 
+{
+    background-color: #d85c9e;
+    color: white !important;
+    transition: .5s;
+}
+
+.navbar-toggler
+{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-toggler-icon 
+{
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' fill='%2325092E'><path stroke='%2325092E' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+.dropdown-menu
+{
+    border-color: white !important;;
+}
+
+.dropdown-item:hover 
+{
+    background-color: transparent !important; /* Removes background */
+    color: inherit !important; /* Keeps the text color unchanged */
+}
+
+@media(max-width: 630px)  
+{
+    .navbar
+    {
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    }
+}
