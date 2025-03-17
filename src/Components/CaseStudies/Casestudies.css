@@ -1,21 +1,21 @@
 .casestudy-img
 {
-    height: 400px;
+    height: 300px;
 }
 
-@media all and (max-width: 950px)
+@media all and (max-width: 1100px)
 {
   .casestudy-img
   {
-      height: 350px;
+      height: 250px;
   }
 }
 
-@media all and (max-width: 800px)
+@media all and (max-width: 900px)
 {
   .casestudy-img
   {
-      height: 300px;
+      height: 200px;
   }
 }
 
@@ -43,10 +43,6 @@
   }
 }
 
-.casestudy-separate
-{
-  background-color: #e6daa2;
-}
 
 @media all and (max-width: 720px) 
 {
@@ -58,5 +54,14 @@
 
 .casestudy-card
 {
-  border: #a0752e 4px solid;
+  border: #d85c9e 4px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.casestudy-separate
+{
+  background-color: #d85c9e;
 }

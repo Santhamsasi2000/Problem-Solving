@@ -1,3 +1,4 @@
+import "./Direction.css";
 const Direction = () => {
   return (
     <>

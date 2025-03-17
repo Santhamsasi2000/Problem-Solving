@@ -14,11 +14,13 @@ import EachStudy from "./Components/CaseStudies/EachStudy/EachStudy";
 import EasyNav from "./Components/NavBar/EasyNav";
 import { DataStudy } from "./Components/CaseStudies/EachStudy/DataStudy";
 import Footer from "./Components/Footer/Footer";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
     <>
       <EasyNav/>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/careers" element={<Careers />} />

@@ -6,14 +6,9 @@ body
   font-family: "Libre Franklin", serif;
 }
 
-.common-bg
-{
-    background-color: #f9f7ed;
-}
-
 .title
 {
-    color: #714a2f !important;
+    color: #8d2754 !important;
     text-align: center;
     font-weight: 900;
     font-size: 25px;
@@ -23,29 +18,20 @@ body
 
 .subtitle
 { 
-  color: #2d423b;
+  color: #d85c9e;
   font-weight: bold;
   font-size: 20px;
   text-transform: uppercase;
 }
 
-/* Careers.css and CaseStudies.css */
-.btn-casestudy
+.common-btn
 {
-    background-color:  #a0752e !important;
-    color: white;
-    border: none;
-    font-weight:600;
-    text-align: center;
-    text-decoration: none;
-    padding: 7px;
-    text-transform: uppercase;
-}
-
-.btn-casestudy:hover
-{
-  background-color: #805828 !important;
-  transition: 0.5s;
+  padding: 8px 32px;
+  border-radius: 5px;
+  border: none;
+  background-color: #d85c9e;
+  color: white;
+  text-decoration: none;
 }
 
 .common-btn:hover
@@ -53,6 +39,15 @@ body
   font-weight:bold !important;
 }
 
+.common-btn:active
+{
+  background-color: #c53d7e;
+}
+
+.justify-text
+{
+  text-align: justify;
+}
 
 .getTouch
 {
@@ -64,7 +59,29 @@ body
   height: 400px;
 }
 
-.justify-text
+
+/* Careers.css and CaseStudies.css */
+.btn-casestudy
 {
-  text-align: justify;
+    background-color: #d85c9e !important;
+    color: white;
+    border: none;
+    font-weight:600;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px;
+    text-transform: uppercase;
 }
+
+.btn-casestudy:hover
+{
+  background-color: #c53d7e !important;
+  transition: 0.5s;
+}
+
+.btn-casestudy:active
+{
+  background-color: #aa2c65 !important;
+  transition: 0.5s;
+}
+

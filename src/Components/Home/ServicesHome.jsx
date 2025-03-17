@@ -24,7 +24,7 @@ const ServicesHome = () => {
             }
           </ul>
         </div>
-        <NavLink to="/services" className="servicehome-btn">Find Out More</NavLink>
+        <NavLink to="/services" className="common-btn shadow">Find Out More</NavLink>
       </div>
       <div className='col-lg-8 order-1 order-lg-2 text-center'>
          <LazyLoadImage className="rounded w-100 common-border mb-4 mb-lg-0" src='/Images/SevicesHome.jpeg' alt='Best Smart Classroom School is Shanthi Rani' effect="blur" threshold={200}/>

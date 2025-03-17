@@ -1,7 +1,7 @@
 .footer
 {
-    background-color: #4c7766;
-    color: #ebe6e0 !important;
+    background-color: #762549;
+    color: #fcf3f8 !important;
 }
 
 .media-icons
@@ -9,7 +9,17 @@
     border-radius: 100px;
     width: 40px;
     height: 40px; 
-    background-color: #ebe6e0;
+    background-color: #fcf3f8;
+}
+
+.media-icons .navcolor
+{
+    color: #c53d7e !important;
+}
+
+.media-icons:hover
+{
+    background-color: #f6d4e8 !important;
 }
 
 .footer a
@@ -17,20 +27,14 @@
     color: #ebe6e0 !important;
 }
 
-.media-icons .navcolor
-{
-    color: #345146 !important;
-}
+
 
 .footer .footer-Links:hover
 {
     text-decoration: underline !important;
 }
 
-.media-icons:hover
-{
-    background-color: #bbd4c8 !important;
-}
+
 
 @media (max-width: 400px) 
 {

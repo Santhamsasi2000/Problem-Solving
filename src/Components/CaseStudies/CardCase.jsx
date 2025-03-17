@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const CaseStudyCard = ({ id, image, title, link }) => {
   return (
-    <article className="card common-bg casestudy-card">
+    <article className="card casestudy-card" key={id}>
       <img
         src={image || "/Images/placeholder.jpg"}
         alt={title || "No Image Available"}

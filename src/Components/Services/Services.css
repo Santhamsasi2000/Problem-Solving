@@ -1,9 +1,17 @@
 .service-img
 {
-    height: 400px;
+    height: 300px;
 }
 
-@media all and (max-width: 1000px) 
+ @media all and (max-width: 1350px) 
+{
+    .service-img
+    {
+        height: 250px;
+    }
+}
+
+@media all and (max-width: 1200px) 
 {
     .service-img
     {
@@ -11,11 +19,19 @@
     }
 }
 
+@media all and (max-width: 1100px) 
+{
+    .service-img
+    {
+        height: 250px;
+    }
+}
+
 @media all and (max-width: 767px) 
 {
     .service-img
     {
-        height: 400px;
+        height: 250px;
         border-radius: 12px !important;
     }
 }
@@ -24,31 +40,15 @@
 {
     .service-img
     {
-        height: 350px;
+        height: 200px;
     }
 }
 
-@media all and (max-width: 500px) 
-{
-    .service-img
-    {
-        height: 300px;
-    }
-}
-
-@media all and (max-width: 500px) 
+@media all and (max-width: 576px) 
 {
     .service-img
     {
         height: 250px;
-    }
-}
-
-@media all and (max-width: 500px) 
-{
-    .service-img
-    {
-        height: 200px;
     }
 }
 

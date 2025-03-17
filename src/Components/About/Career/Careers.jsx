@@ -11,7 +11,7 @@ const Careers = () => {
        {
         DataCareer.map(({id,department,skillCategories,qualification,description,vacancy,experience,location})=>(
            <div className="col-md-6">
-              <div className="important-component card p-3 p-sm-5 border-0 rounded-5 w-100 h-100" key={id}>
+              <div className="important-component card p-4 p-sm-5 border-0 rounded-5 w-100 h-100" key={id}>
                 <p className="subtitle fs-4 mb-4">{department}</p>
                 <p className="fw-semibold mb-2">Skill Required:</p>
                   <p className="justify-text">{skillCategories.join(", ")}</p>
@@ -29,7 +29,7 @@ const Careers = () => {
                   <p className="mb-4"><span className="career-icon px-2 pt-1 pb-2 fs-4"><IoLocationOutline /></span>{location}</p>
                   <p className="mb-5"><span className="career-icon px-2 pt-1 pb-2 fs-4"><BsPerson /></span>{vacancy}</p>
                 </div>
-                <NavLink to="/contact" className="form-btn">APPLY NOW</NavLink>
+                <NavLink to="/contact" className="btn-casestudy rounded-2">APPLY NOW</NavLink>
               </div>
            </div>
         ))

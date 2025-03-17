@@ -26,7 +26,7 @@ const ContactUsForm = () => {
         const { default: Swal } = await import("sweetalert2");
         Swal.fire({
           title: "MESSAGE SENT !",
-          text: "Thanks for contacting us. You will receive a response within two hours. If you do not receive a response from us, please call '9442140768'.",
+          text: "Thanks for contacting us. You will receive a response within two hours. If you do not receive a response from us, please call '9361868543'.",
           icon: "success",
         });
         resetForm();
@@ -77,7 +77,7 @@ const ContactUsForm = () => {
 
             <button
               type="submit"
-              className="form-btn"
+              className="common-btn"
               disabled={isSubmitting}
             >
               {isSubmitting ? "SENDING..." : "SEND"}
